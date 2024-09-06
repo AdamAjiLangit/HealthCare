@@ -12,7 +12,7 @@ export default function IconFull() {
                 alt="logo"
                 className="h-8 w-fit"
             />
-            <span className="font-semibold text-lg">HealthCare</span>
+            <span className="font-semibold text-lg text-white">HealthCare</span>
         </Link>
     )
 }
