@@ -63,7 +63,7 @@ export const PatientForm = () => {
                     className="mb-12 space-y-4"
                 >
                     <div className="flex">
-                        <h1 className="header">Hi there </h1>
+                        <h1 className="header text-white">Hi there </h1>
                         <WavingHands />
                     </div>
                     <p className="text-dark-700">Get started with appointments.</p>

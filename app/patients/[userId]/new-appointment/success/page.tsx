@@ -23,7 +23,7 @@ const RequestSuccess = async ({
             <div className="success-img">
                 <IconFull />
 
-                <section className="flex flex-col items-center">
+                <section className="flex flex-col items-center text-white">
                     <Image
                         src="/assets/gifs/success.gif"
                         height={300}

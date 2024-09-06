@@ -51,7 +51,7 @@
     }
 
     .header {
-        @apply text-32-bold md:text-36-bold;
+        @apply text-32-bold md:text-36-bold text-white;
     }
 
     .sub-header {
@@ -80,7 +80,7 @@
     }
 
     .request-details {
-        @apply flex w-full flex-col items-center gap-8 border-y-2 border-dark-400 py-8 md:w-fit md:flex-row;
+        @apply flex w-full flex-col text-white items-center gap-8 border-y-2 border-dark-400 py-8 md:w-fit md:flex-row;
     }
 
     /* ===== ADMIN */
@@ -209,7 +209,7 @@
     }
 
     .shad-textArea {
-        @apply bg-dark-400 placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+        @apply bg-dark-400 text-white placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
     }
 
     .shad-combobox-item {
@@ -221,11 +221,11 @@
     }
 
     .shad-select-trigger {
-        @apply bg-dark-400 placeholder:text-dark-600 border-dark-500 h-11 focus:ring-0 focus:ring-offset-0 !important;
+        @apply bg-dark-400 text-white placeholder:text-dark-600 border-dark-500 h-11 focus:ring-0 focus:ring-offset-0 !important;
     }
 
     .shad-select-content {
-        @apply bg-dark-400 border-dark-500 !important;
+        @apply bg-dark-400 text-white border-dark-500 !important;
     }
 
     .shad-dialog {
@@ -270,12 +270,12 @@
 
     /* =====  REACT PHONE NUMBER INPUT OVERRIDES */
     .input-phone {
-        @apply mt-2 h-11 rounded-md px-3 text-sm border bg-dark-400 placeholder:text-dark-600 border-dark-500 !important;
+        @apply mt-2 h-11 rounded-md px-3 text-sm text-gray-300 border bg-dark-400 placeholder:text-dark-600 border-dark-500 !important;
     }
 
     /* =====  REACT DATE PICKER OVERRIDES */
     .date-picker {
-        @apply overflow-hidden border-transparent w-full placeholder:text-dark-600 h-11 text-14-medium rounded-md px-3 outline-none !important;
+        @apply overflow-hidden border-transparent text-white w-full placeholder:text-dark-600 h-11 text-14-medium rounded-md px-3 outline-none !important;
     }
 }
 
