@@ -44,8 +44,8 @@ export const AppointmentModal = ({
             </DialogTrigger>
             <DialogContent className="shad-dialog sm:max-w-md">
                 <DialogHeader className="mb-4 space-y-3">
-                    <DialogTitle className="capitalize">{type} Appointment</DialogTitle>
-                    <DialogDescription>
+                    <DialogTitle className="capitalize text-white">{type} Appointment</DialogTitle>
+                    <DialogDescription className="text-white">
                         Please fill in the following details to {type} appointment
                     </DialogDescription>
                 </DialogHeader>
