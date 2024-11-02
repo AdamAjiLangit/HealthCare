@@ -60,7 +60,7 @@ const RenderInput = ({ field, props }: { field: any; props: CustomProps }) => {
                         <Input
                             placeholder={props.placeholder}
                             {...field}
-                            className="shad-inputborder-0"
+                            className="shad-input border-0"
                         />
                     </FormControl>
                 </div>
@@ -98,6 +98,7 @@ const RenderInput = ({ field, props }: { field: any; props: CustomProps }) => {
                             id={props.name}
                             checked={field.value}
                             onCheckedChange={field.onChange}
+                            className="text-white"
                         />
                         <label htmlFor={props.name} className="checkbox-label">
                             {props.label}
